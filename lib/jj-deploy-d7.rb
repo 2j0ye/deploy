@@ -24,5 +24,5 @@ end
 
 
 if Capistrano::Configuration.instance
-    JjDeploy::Jj.load_into(Capistrano::Configuration.instance)
+    JjDeploy::D7.load_into(Capistrano::Configuration.instance)
 end

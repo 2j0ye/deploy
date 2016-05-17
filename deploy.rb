@@ -11,6 +11,6 @@ load deploy_dir + '/includes/tools'
 load deploy_dir + '/includes/tasks'
 
 # external config
-load project_root + '/config/banana'
+load project_root + '/config/project'
 
 require 'capistrano/ext/multistage'

@@ -14,8 +14,6 @@ module JjDeploy
                 load 'includes/access'
                 load 'includes/drush'
                 load 'includes/drupal'
-                load 'includes/slack'
-                load 'includes/extras'
                 load 'includes/bower'
             end
         end
